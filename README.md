@@ -1,1 +1,1 @@
-# diabetessolutionkit.github.io
+# https://diabetes-solution-kit.vercel.app
