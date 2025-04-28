@@ -38,24 +38,26 @@
 
     <meta name="msvalidate.01" content="D706A9CDA41743E14DA57A6DCB2DDAFF" />
     <meta name="google-site-verification" content="jZ-4xgvm4jkQtqSJ2rjz3NtQHXHVf1xCU-st2WTnuJI" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192x192.png">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00bcd4">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </head>
 
 <body>
-
-    <!-- Analytics -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-252558466-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-252558466-1');
-    </script>
-    <!-- /Analytics -->
-
-
-
     <section data-bs-version="5.1" class="menu menu1 cid-sFnVyL8djO" once="menu" id="menu1-r">
 
 
