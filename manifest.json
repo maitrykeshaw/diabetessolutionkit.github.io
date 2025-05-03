@@ -1,12 +1,12 @@
 {
-  "name":"PWA Tutorial",
-  "short_name":"PWA",
+  "name":"Diabetes Solution Kit™ (USA Official Website)",
+  "short_name":"Diabetes Solution Kit™",
   "start_url":"index.html",
   "display":"standalone",
   "background_color":"#5900b3",
   "theme_color":"#FF5733",
   "scope": ".",
-  "description":"This is a PWA tutorial.",
+  "description":"Diabetes Solution Kit is the one-stop solution for people looking to boost their immune system and reduce their blood sugar levels in the body.",
   "icons":[
   {
   "src":"icons/favicon-192x192.png",                     
